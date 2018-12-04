@@ -1,0 +1,60 @@
+/* body {
+  height: 100%;
+  background-color: red;
+  background-image: linear-gradient(rgb(65, 140, 253), rgb(180, 204, 255));
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  text-align: center;
+} */
+*{
+  margin:0;
+  padding:0;
+}
+
+body {
+  width: 800px;
+  background: url("../src/components/images/nature2.jpg") fixed;
+  background-size:100%;
+  background-repeat: no-repeat;
+  padding:0 20px;
+  margin:0;
+  background-size: cover !important;
+
+
+}
+
+.layer {
+  background-color: rgba(0, 0, 0, 0.2);
+  background-size: 100%;
+  position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.Main {
+  width: 100%;
+  height: 100%;
+}
+
+.Menu {
+  width: 800px;
+}
+
+.Orders {
+  text-align:center;
+}
+
+#changePage {
+  margin-bottom: 5px;
+}
+
+@media only screen and (max-width: 600px) {
+  body {
+      background-position: center;
+
+  }
+
+
+}
