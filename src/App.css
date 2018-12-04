@@ -52,9 +52,13 @@ body {
 
 @media only screen and (max-width: 600px) {
   body {
-      background-position: center;
-
+      background-position: center auto;
+      background-size: 130% !important; 
+      
+      
   }
-
+  .layer {
+    height: auto !important;
+  }
 
 }

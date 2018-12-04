@@ -1,5 +1,12 @@
+.header {
+    color: white;
+    text-align: center;
+    margin-top: 10px;
+}
+
 @media only screen and (min-width: 991px){
     .header {
         width: 800px !important;
+        text-align: center;
     }
 }
